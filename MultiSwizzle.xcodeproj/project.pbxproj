@@ -1,0 +1,551 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2C6023081FD8218F00E327A7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C6023071FD8218F00E327A7 /* AppDelegate.m */; };
+		2C60230B1FD8218F00E327A7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C60230A1FD8218F00E327A7 /* ViewController.m */; };
+		2C60230E1FD8218F00E327A7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C60230C1FD8218F00E327A7 /* Main.storyboard */; };
+		2C6023101FD8218F00E327A7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C60230F1FD8218F00E327A7 /* Assets.xcassets */; };
+		2C6023131FD8218F00E327A7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C6023111FD8218F00E327A7 /* LaunchScreen.storyboard */; };
+		2C6023161FD8218F00E327A7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C6023151FD8218F00E327A7 /* main.m */; };
+		2C6023201FD8218F00E327A7 /* MultiSwizzleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C60231F1FD8218F00E327A7 /* MultiSwizzleTests.m */; };
+		2C60232B1FD8218F00E327A7 /* MultiSwizzleUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C60232A1FD8218F00E327A7 /* MultiSwizzleUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2C60231C1FD8218F00E327A7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2C6022FB1FD8218F00E327A7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2C6023021FD8218F00E327A7;
+			remoteInfo = MultiSwizzle;
+		};
+		2C6023271FD8218F00E327A7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2C6022FB1FD8218F00E327A7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2C6023021FD8218F00E327A7;
+			remoteInfo = MultiSwizzle;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2C6023031FD8218F00E327A7 /* MultiSwizzle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MultiSwizzle.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C6023061FD8218F00E327A7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2C6023071FD8218F00E327A7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2C6023091FD8218F00E327A7 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		2C60230A1FD8218F00E327A7 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		2C60230D1FD8218F00E327A7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2C60230F1FD8218F00E327A7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2C6023121FD8218F00E327A7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2C6023141FD8218F00E327A7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2C6023151FD8218F00E327A7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2C60231B1FD8218F00E327A7 /* MultiSwizzleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MultiSwizzleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C60231F1FD8218F00E327A7 /* MultiSwizzleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MultiSwizzleTests.m; sourceTree = "<group>"; };
+		2C6023211FD8218F00E327A7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2C6023261FD8218F00E327A7 /* MultiSwizzleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MultiSwizzleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C60232A1FD8218F00E327A7 /* MultiSwizzleUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MultiSwizzleUITests.m; sourceTree = "<group>"; };
+		2C60232C1FD8218F00E327A7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2C6023001FD8218F00E327A7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C6023181FD8218F00E327A7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C6023231FD8218F00E327A7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2C6022FA1FD8218F00E327A7 = {
+			isa = PBXGroup;
+			children = (
+				2C6023051FD8218F00E327A7 /* MultiSwizzle */,
+				2C60231E1FD8218F00E327A7 /* MultiSwizzleTests */,
+				2C6023291FD8218F00E327A7 /* MultiSwizzleUITests */,
+				2C6023041FD8218F00E327A7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2C6023041FD8218F00E327A7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2C6023031FD8218F00E327A7 /* MultiSwizzle.app */,
+				2C60231B1FD8218F00E327A7 /* MultiSwizzleTests.xctest */,
+				2C6023261FD8218F00E327A7 /* MultiSwizzleUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2C6023051FD8218F00E327A7 /* MultiSwizzle */ = {
+			isa = PBXGroup;
+			children = (
+				2C6023061FD8218F00E327A7 /* AppDelegate.h */,
+				2C6023071FD8218F00E327A7 /* AppDelegate.m */,
+				2C6023091FD8218F00E327A7 /* ViewController.h */,
+				2C60230A1FD8218F00E327A7 /* ViewController.m */,
+				2C60230C1FD8218F00E327A7 /* Main.storyboard */,
+				2C60230F1FD8218F00E327A7 /* Assets.xcassets */,
+				2C6023111FD8218F00E327A7 /* LaunchScreen.storyboard */,
+				2C6023141FD8218F00E327A7 /* Info.plist */,
+				2C6023151FD8218F00E327A7 /* main.m */,
+			);
+			path = MultiSwizzle;
+			sourceTree = "<group>";
+		};
+		2C60231E1FD8218F00E327A7 /* MultiSwizzleTests */ = {
+			isa = PBXGroup;
+			children = (
+				2C60231F1FD8218F00E327A7 /* MultiSwizzleTests.m */,
+				2C6023211FD8218F00E327A7 /* Info.plist */,
+			);
+			path = MultiSwizzleTests;
+			sourceTree = "<group>";
+		};
+		2C6023291FD8218F00E327A7 /* MultiSwizzleUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2C60232A1FD8218F00E327A7 /* MultiSwizzleUITests.m */,
+				2C60232C1FD8218F00E327A7 /* Info.plist */,
+			);
+			path = MultiSwizzleUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2C6023021FD8218F00E327A7 /* MultiSwizzle */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2C60232F1FD8218F00E327A7 /* Build configuration list for PBXNativeTarget "MultiSwizzle" */;
+			buildPhases = (
+				2C6022FF1FD8218F00E327A7 /* Sources */,
+				2C6023001FD8218F00E327A7 /* Frameworks */,
+				2C6023011FD8218F00E327A7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MultiSwizzle;
+			productName = MultiSwizzle;
+			productReference = 2C6023031FD8218F00E327A7 /* MultiSwizzle.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2C60231A1FD8218F00E327A7 /* MultiSwizzleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2C6023321FD8218F00E327A7 /* Build configuration list for PBXNativeTarget "MultiSwizzleTests" */;
+			buildPhases = (
+				2C6023171FD8218F00E327A7 /* Sources */,
+				2C6023181FD8218F00E327A7 /* Frameworks */,
+				2C6023191FD8218F00E327A7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2C60231D1FD8218F00E327A7 /* PBXTargetDependency */,
+			);
+			name = MultiSwizzleTests;
+			productName = MultiSwizzleTests;
+			productReference = 2C60231B1FD8218F00E327A7 /* MultiSwizzleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2C6023251FD8218F00E327A7 /* MultiSwizzleUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2C6023351FD8218F00E327A7 /* Build configuration list for PBXNativeTarget "MultiSwizzleUITests" */;
+			buildPhases = (
+				2C6023221FD8218F00E327A7 /* Sources */,
+				2C6023231FD8218F00E327A7 /* Frameworks */,
+				2C6023241FD8218F00E327A7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2C6023281FD8218F00E327A7 /* PBXTargetDependency */,
+			);
+			name = MultiSwizzleUITests;
+			productName = MultiSwizzleUITests;
+			productReference = 2C6023261FD8218F00E327A7 /* MultiSwizzleUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2C6022FB1FD8218F00E327A7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = MarcusWoo;
+				TargetAttributes = {
+					2C6023021FD8218F00E327A7 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+					2C60231A1FD8218F00E327A7 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 2C6023021FD8218F00E327A7;
+					};
+					2C6023251FD8218F00E327A7 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 2C6023021FD8218F00E327A7;
+					};
+				};
+			};
+			buildConfigurationList = 2C6022FE1FD8218F00E327A7 /* Build configuration list for PBXProject "MultiSwizzle" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2C6022FA1FD8218F00E327A7;
+			productRefGroup = 2C6023041FD8218F00E327A7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2C6023021FD8218F00E327A7 /* MultiSwizzle */,
+				2C60231A1FD8218F00E327A7 /* MultiSwizzleTests */,
+				2C6023251FD8218F00E327A7 /* MultiSwizzleUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2C6023011FD8218F00E327A7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C6023131FD8218F00E327A7 /* LaunchScreen.storyboard in Resources */,
+				2C6023101FD8218F00E327A7 /* Assets.xcassets in Resources */,
+				2C60230E1FD8218F00E327A7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C6023191FD8218F00E327A7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C6023241FD8218F00E327A7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2C6022FF1FD8218F00E327A7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C60230B1FD8218F00E327A7 /* ViewController.m in Sources */,
+				2C6023161FD8218F00E327A7 /* main.m in Sources */,
+				2C6023081FD8218F00E327A7 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C6023171FD8218F00E327A7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C6023201FD8218F00E327A7 /* MultiSwizzleTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C6023221FD8218F00E327A7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C60232B1FD8218F00E327A7 /* MultiSwizzleUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2C60231D1FD8218F00E327A7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2C6023021FD8218F00E327A7 /* MultiSwizzle */;
+			targetProxy = 2C60231C1FD8218F00E327A7 /* PBXContainerItemProxy */;
+		};
+		2C6023281FD8218F00E327A7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2C6023021FD8218F00E327A7 /* MultiSwizzle */;
+			targetProxy = 2C6023271FD8218F00E327A7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2C60230C1FD8218F00E327A7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2C60230D1FD8218F00E327A7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2C6023111FD8218F00E327A7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2C6023121FD8218F00E327A7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2C60232D1FD8218F00E327A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		2C60232E1FD8218F00E327A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2C6023301FD8218F00E327A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MultiSwizzle/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = aa.MultiSwizzle;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2C6023311FD8218F00E327A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MultiSwizzle/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = aa.MultiSwizzle;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		2C6023331FD8218F00E327A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MultiSwizzleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = aa.MultiSwizzleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MultiSwizzle.app/MultiSwizzle";
+			};
+			name = Debug;
+		};
+		2C6023341FD8218F00E327A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MultiSwizzleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = aa.MultiSwizzleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MultiSwizzle.app/MultiSwizzle";
+			};
+			name = Release;
+		};
+		2C6023361FD8218F00E327A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MultiSwizzleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = aa.MultiSwizzleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MultiSwizzle;
+			};
+			name = Debug;
+		};
+		2C6023371FD8218F00E327A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MultiSwizzleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = aa.MultiSwizzleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MultiSwizzle;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2C6022FE1FD8218F00E327A7 /* Build configuration list for PBXProject "MultiSwizzle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C60232D1FD8218F00E327A7 /* Debug */,
+				2C60232E1FD8218F00E327A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2C60232F1FD8218F00E327A7 /* Build configuration list for PBXNativeTarget "MultiSwizzle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C6023301FD8218F00E327A7 /* Debug */,
+				2C6023311FD8218F00E327A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2C6023321FD8218F00E327A7 /* Build configuration list for PBXNativeTarget "MultiSwizzleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C6023331FD8218F00E327A7 /* Debug */,
+				2C6023341FD8218F00E327A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2C6023351FD8218F00E327A7 /* Build configuration list for PBXNativeTarget "MultiSwizzleUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C6023361FD8218F00E327A7 /* Debug */,
+				2C6023371FD8218F00E327A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2C6022FB1FD8218F00E327A7 /* Project object */;
+}
