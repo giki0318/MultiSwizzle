@@ -15,6 +15,8 @@
 		2C6023161FD8218F00E327A7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C6023151FD8218F00E327A7 /* main.m */; };
 		2C6023201FD8218F00E327A7 /* MultiSwizzleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C60231F1FD8218F00E327A7 /* MultiSwizzleTests.m */; };
 		2C60232B1FD8218F00E327A7 /* MultiSwizzleUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C60232A1FD8218F00E327A7 /* MultiSwizzleUITests.m */; };
+		2C60233A1FD821A500E327A7 /* ViewController+Swizzle1.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C6023391FD821A500E327A7 /* ViewController+Swizzle1.m */; };
+		2C60233D1FD821F300E327A7 /* ViewController+Swizzle2.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C60233C1FD821F300E327A7 /* ViewController+Swizzle2.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,10 @@
 		2C6023261FD8218F00E327A7 /* MultiSwizzleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MultiSwizzleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2C60232A1FD8218F00E327A7 /* MultiSwizzleUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MultiSwizzleUITests.m; sourceTree = "<group>"; };
 		2C60232C1FD8218F00E327A7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2C6023381FD821A500E327A7 /* ViewController+Swizzle1.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ViewController+Swizzle1.h"; sourceTree = "<group>"; };
+		2C6023391FD821A500E327A7 /* ViewController+Swizzle1.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "ViewController+Swizzle1.m"; sourceTree = "<group>"; };
+		2C60233B1FD821F300E327A7 /* ViewController+Swizzle2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ViewController+Swizzle2.h"; sourceTree = "<group>"; };
+		2C60233C1FD821F300E327A7 /* ViewController+Swizzle2.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "ViewController+Swizzle2.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +111,10 @@
 				2C6023071FD8218F00E327A7 /* AppDelegate.m */,
 				2C6023091FD8218F00E327A7 /* ViewController.h */,
 				2C60230A1FD8218F00E327A7 /* ViewController.m */,
+				2C6023381FD821A500E327A7 /* ViewController+Swizzle1.h */,
+				2C6023391FD821A500E327A7 /* ViewController+Swizzle1.m */,
+				2C60233B1FD821F300E327A7 /* ViewController+Swizzle2.h */,
+				2C60233C1FD821F300E327A7 /* ViewController+Swizzle2.m */,
 				2C60230C1FD8218F00E327A7 /* Main.storyboard */,
 				2C60230F1FD8218F00E327A7 /* Assets.xcassets */,
 				2C6023111FD8218F00E327A7 /* LaunchScreen.storyboard */,
@@ -268,6 +278,8 @@
 				2C60230B1FD8218F00E327A7 /* ViewController.m in Sources */,
 				2C6023161FD8218F00E327A7 /* main.m in Sources */,
 				2C6023081FD8218F00E327A7 /* AppDelegate.m in Sources */,
+				2C60233D1FD821F300E327A7 /* ViewController+Swizzle2.m in Sources */,
+				2C60233A1FD821A500E327A7 /* ViewController+Swizzle1.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
