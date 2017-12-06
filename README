@@ -1,0 +1,16 @@
+最近在做Framework的时候想要全局替换一个系统方法，
+但是为了偷懒，就想用swizzle，然后想我这样会不会引起主工程异常，
+所以就试验了一下对同一个方法进行多次swizzle，
+结果当然是好的~
+
+
+
+==================================================
+
+
+
+I am building a framework recently, and wanna change the system method,
+Of course, using Swizzle for i am quite lazy. 
+And I wondered whether this will cause some exception in the main project,
+So i have tried multi-swizzle at the same method.
+And the result went well.
